@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #262246;
+  color: #000000;
+  text-align: center;
+}
+
+nav {
+  background: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.page {
+  padding: 20px;
+}
+
+img {
+  max-width: 200px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.works-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.work-item {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.work-item img {
+  max-width: 150px;
+  border-radius: 5px;
+}
+
+/* หน้าแรก */
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #000000, #262246);
+  color: white;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 2.2rem;
+  margin-top: 15px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.intro button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: white;
+  color: #333;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.intro button:hover {
+  background: #ffcc00;
+  color: #333;
+}
