@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+  <nav>
+    <ul>
+      <li><a href="#" onclick="showPage('home')">หน้าแรก</a></li>
+      <li><a href="#" onclick="showPage('works')">ผลงาน</a></li>
+      <li><a href="#" onclick="showPage('contact')">ติดต่อ</a></li>
+    </ul>
+  </nav>
+
+  
+  <!-- หน้าแรก -->
+<section id="home" class="page home">
+  <div class="intro">
+    <img src="download (3).jfif" alt="รูปของฉัน" class="profile-pic">
+    <h1>สวัสดีครับ ผมคือ วศิน พ้วงกลิ่น</h1>
+    <p>นักเรียนสายไอที ผมชื่นชอบการเขียนโค้ด และกำลังศึกษาเพื่อพัฒนาทักษะ</p>
+    <button onclick="showPage('works')">ดูผลงานของฉัน</button>
+  </div>
+</section>
+
+  <section id="works" class="page" style="display:none;">
+    <h2>ผลงานของฉัน</h2>
+    <div class="works-grid">
+      <div class="work-item">
+        <img src="download (1).jfif" alt="งานที่1">
+        <p>ผลงานที่ 1</p>
+      </div>
+      <div class="work-item">
+        <img src="download (2).jfif" alt="งานที่2">
+        <p>ผลงานที่ 2</p>
+      </div>
+      <div class="work-item">
+        <img src="download.jfif" alt="งานที่3">
+        <p>ผลงานที่ 3</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="page" style="display:none;">
+    <h2>ช่องทางติดต่อ</h2>
+    <p>Email: XXX123456@gmail.com</p>
+    <p>Facebook: Wasin Puangklin</p>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
+
